@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",         // Spécifie la version de JavaScript cible
+    "module": "commonjs",    // Spécifie le système de module
+    "outDir": "./dist",      // Répertoire de sortie pour les fichiers compilés
+    "strict": true,          // Active une série de contrôles stricts
+    "esModuleInterop": true, // Active l'interopérabilité avec les modules ES6
+    "skipLibCheck": true,    // Ignore les vérifications de types dans les fichiers de déclaration
+    "forceConsistentCasingInFileNames": true // Force la cohérence de la casse dans les noms de fichiers
+  },
+  "include": ["src/**/*"],   // Inclut les fichiers TypeScript à compiler
+  "exclude": ["node_modules"] // Exclut les fichiers ou répertoires spécifiques
+}
